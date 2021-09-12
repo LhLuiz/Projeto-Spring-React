@@ -30,7 +30,6 @@ public class Sale {
 	}
 
 	public Sale(Long id, int visited, int deals, double amount, LocalDate date, Seller seller) {
-		super();
 		this.id = id;
 		this.visited = visited;
 		this.deals = deals;
